@@ -1,0 +1,6 @@
+# files to ignore
+*.tlog
+*.exe
+*.ilk
+*.pdb
+*.obj
