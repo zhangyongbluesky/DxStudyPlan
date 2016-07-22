@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeshStudy", "MeshStudy\Mesh
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CameraStudy", "CameraStudy\CameraStudy.vcxproj", "{ED558916-6ADA-452B-95D7-48A8CCFD52C1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryNum", "BinaryNum\BinaryNum.vcxproj", "{8E45B162-F192-4C0C-9ABD-76543E886016}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +33,10 @@ Global
 		{ED558916-6ADA-452B-95D7-48A8CCFD52C1}.Debug|Win32.Build.0 = Debug|Win32
 		{ED558916-6ADA-452B-95D7-48A8CCFD52C1}.Release|Win32.ActiveCfg = Release|Win32
 		{ED558916-6ADA-452B-95D7-48A8CCFD52C1}.Release|Win32.Build.0 = Release|Win32
+		{8E45B162-F192-4C0C-9ABD-76543E886016}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E45B162-F192-4C0C-9ABD-76543E886016}.Debug|Win32.Build.0 = Debug|Win32
+		{8E45B162-F192-4C0C-9ABD-76543E886016}.Release|Win32.ActiveCfg = Release|Win32
+		{8E45B162-F192-4C0C-9ABD-76543E886016}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
