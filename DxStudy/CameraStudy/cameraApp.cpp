@@ -97,7 +97,7 @@ bool Display(float timeDelta)
 			TheCamera.yaw(1.0f * timeDelta);
 
 		if( ::GetAsyncKeyState('N') & 0x8000f )
-			TheCamera.roll(1.0f * timeDelta);
+			TheCamera.roll(1.0f * hahaDelta);
 
 		if( ::GetAsyncKeyState('M') & 0x8000f )
 			TheCamera.roll(-1.0f * timeDelta);
@@ -140,7 +140,7 @@ LRESULT CALLBACK d3d::WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 		break;
 	}
-	return ::DefWindowProc(hwnd, msg, wParam, lParam);
+	return ::DefWindowProc(hwnd, msg, wParam, lParm);
 }
 
 //
